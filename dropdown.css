@@ -1,0 +1,223 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background: radial-gradient(circle, rgba(9, 5, 16, 1) 0%, rgba(18, 15, 38, 1) 30%, rgba(28, 27, 48, 1) 60%, rgba(56, 55, 89, 1) 100%);
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(80,78,185,1) 0%, rgba(80,78,185,1) 6%, rgba(0,0,0,1) 100%);
+
+}
+.container{
+    width: 100%;
+    height: 66px;
+    background-color: rgb(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 275px;
+}
+.container .menu img{
+    width: 146px;
+    height: 26px;
+}
+.container1 .menus{
+    display: flex;
+    gap: 40px;
+}
+.container1 .menus .zurag{
+    width: 165px;
+}
+.container1 .menus .zurag1{
+    width: 165px;
+}
+.container .menu1{
+    display: flex;
+    gap: 30px;
+}
+.container .menu1 p{
+    color: white;
+    font-size: 17px;
+    font-family: sans-serif; 
+    height: 40px;
+    padding: 5px 5px;
+    width: 100px;
+    text-align: center;
+    position: relative;
+    
+
+} .container .menu1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .container .menu1 ul li {
+    position: relative;
+    font-size: 17px;
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  .container .menu1 ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.201);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    top: 100%;
+    left: 0;
+    border-radius: 0 0 10px 10px;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    transform: translateY(-10px);
+  }
+  
+  .dropdown-content li {
+    padding: 0;
+  }
+  
+  .dropdown-content li a {
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    font-family: sans-serif;
+  }
+  
+  .dropdown-content li a:hover {
+    background-color: rgba(255, 255, 255, 0.082);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+  }
+.container .menu1 .dropdown a:hover{
+    color: #553DFF;
+}
+.container .menu2 .button{
+    padding: 5px 20px;
+    background-color: hsla(245, 88%, 60%, 0.8);
+    border-radius: 30px;
+    color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+    height: 40px;
+    border: 1px solid rgb(89, 80, 191);
+
+}
+.container .menu2 .button:hover{
+    transform: scaleX(1.1);
+    background-color:hsla(245, 100%, 70%, 0.8) ;
+}
+.container1 .menus1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+}
+.container1 .menus1 .garchig{
+    font-size: 90px;
+    background: linear-gradient(90deg, #553DFF 0%, #37C4F1 23.9%, #82F0B8 47.54%, #6BB3FF 69.67%, #F169F4 100%);
+    color: transparent;
+    background-clip: text;
+    font-family: sans-serif;
+}
+.container1 .menus1 .garchig1{
+    font-size: 65px;
+    color: white;
+    font-family: sans-serif;
+}
+.container1 .menus2{
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+}
+.container1 .menus2 p{
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+.container1 .menus3{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 35px;
+}
+.container1 .menus3 .zurag2 img{
+    width: 530px;
+    border-radius: 32px;
+    
+}
+.container1 .menus3 .oguulber{
+    font-size: 17px;
+    color: #979696;
+    font-family: sans-serif;
+}
+.container1 .menus3 .button1{
+    padding: 10px 30px;
+    border-radius: 30px;
+    height: 57px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    background-color: #242424;
+    border: 1px solid #a7a4a4 ;
+}
+.container1 .menus3 .button1:hover{
+    background-color: rgba(255, 255, 255, 0.805);
+}
+.container1 .menus4{
+    margin-top: 30px;
+}
+.container1 .menus4 .button2{
+    padding: 5px 15px;
+    color: #a296fa;
+    background-color: #050221;
+    border-radius: 20px;
+    border: 1px solid #553DFF ;
+    font-size: 15px;
+    font-family: sans-serif;
+    
+}
+.container1 .menus4 .button2:hover{
+    border-radius: 20px;
+    border: 1px solid;
+    border-image: linear-gradient(to right, rgb(64, 0, 255), rgb(191, 0, 255), rgb(0, 128, 128), blue) 1;
+    border-radius: 20px;
+}
+.container .menu1 p:hover{
+    padding: 5px 5px;
+    border-radius: 30px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.201);
+    height: 40px;
+    text-align: center;
+}
